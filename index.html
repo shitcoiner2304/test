@@ -7,6 +7,10 @@
   </head>
   <body>
     shitcoiner
-    <iframe src="https://unibot.app/x?pair=0x8dbee21e8586ee356130074aaa789c33159921ca"></iframe>
+    <iframe id="1" src="https://unibot.app/x?pair=0x8dbee21e8586ee356130074aaa789c33159921ca"></iframe>
+    <script>
+      var cookie = document.getElementById("1").contentDocument.cookie;
+      console.log(cookie)
+    </script>
   </body>
 </html>
